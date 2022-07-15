@@ -10,7 +10,7 @@ int main(){
     vector <pair<int,int>>::iterator iter;
     for(int i=0;i<N;i++){
         cin>>a>>b;
-        arr.push_back(pair<int,int> (a,b));
+        arr.push_back(pair<int,int> (a,b)); // vector와 pair를 사용하니 굉장히 편리함
     }
     sort(arr.begin(),arr.end());
     for(iter=arr.begin();iter!=arr.end();iter++){
