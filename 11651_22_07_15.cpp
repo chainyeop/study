@@ -12,7 +12,7 @@ int main(){
     cin>>N;
     for(int i=0;i<N;i++){
         cin>>a>>b;
-        v.push_back(pair<int,int>(b,a));
+        v.push_back(pair<int,int>(b,a)); // 입력하는 위치만 바꿔줌
     }
     sort(v.begin(),v.end());
     for(iter=v.begin();iter!=v.end();iter++){
