@@ -1,4 +1,3 @@
-// vector와 pair를 이용한 문제
 #include<iostream>
 #include<algorithm>
 using namespace std;
