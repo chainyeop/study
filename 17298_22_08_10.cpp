@@ -82,7 +82,7 @@ int main(){
                         arr[st.top()]=arr[i];
                         st.pop();
                     }
-                    else if(arr[st.top()>arr[i]]){
+                    else if(arr[st.top()]>arr[i]){
                         st.push(i);
                         break;
                     }
